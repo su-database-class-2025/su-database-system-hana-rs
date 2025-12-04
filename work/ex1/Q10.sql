@@ -1,0 +1,1 @@
+SELECT name AS city_kazu FROM city;
