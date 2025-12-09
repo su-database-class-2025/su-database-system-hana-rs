@@ -1,0 +1,6 @@
+SELECT store_id, address, city AS city_name
+FROM store
+INNER JOIN address
+ ON store.address_id = address.address_id
+INNER JOIN city
+ ON address.city_id = city.city_id;
