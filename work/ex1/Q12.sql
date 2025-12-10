@@ -1,3 +1,3 @@
-SELECT title, replacement_cost
+SELECT title
 FROM film
 WHERE replacement_cost = (SELECT MAX(replacement_cost) FROM film);
