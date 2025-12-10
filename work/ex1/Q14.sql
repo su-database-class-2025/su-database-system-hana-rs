@@ -1,4 +1,4 @@
-SELECT store_id, address, city AS city_name
+SELECT store_id, address, city
 FROM store
 JOIN address
  ON store.address_id = address.address_id
