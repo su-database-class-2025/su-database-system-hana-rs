@@ -1,4 +1,4 @@
 SELECT *
 FROM store
-INNER JOIN address
+JOIN address
  ON store.address_id = address.address_id;
