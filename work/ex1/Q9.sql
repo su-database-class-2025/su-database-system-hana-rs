@@ -1,1 +1,1 @@
-SELECT DISTINCT COUNT(*) FROM language;
+SELECT COUNT(language_id) FROM language;
